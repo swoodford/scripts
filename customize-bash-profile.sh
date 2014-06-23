@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Put Your Git Branch in Your Bash Prompt
 # http://code-worrier.com/blog/git-branch-in-bash-prompt/
 curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh -o ~/.git-prompt.sh
