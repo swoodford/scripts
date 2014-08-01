@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # This script will build an OS X Mavericks Bootable Thumb Drive
 # Assumptions: you have already downloaded the "Install OS X Mavericks" app from the App Store and have an 8GB or larger USB thumb drive mounted

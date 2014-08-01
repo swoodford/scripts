@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # This script will update Java from 1.6.0 to 1.7.0 if necessary and update Elasticsearch to the latest version using the yum repo
 
