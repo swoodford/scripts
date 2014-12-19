@@ -43,7 +43,7 @@ do
   SNAPSHOTRESULT=$(aws ec2 create-snapshot --volume-id $VOLUME --description $DESCRIPTION)
   # echo "Snapshot result is: "$SNAPSHOTRESULT
 
-  SNAPSHOTID=$(echo $SNAPSHOTRESULT | cut -d ' ' -f4)
+  SNAPSHOTID=$(echo $SNAPSHOTRESULT | cut -d ' ' -f5)
   echo "Snapshot ID: "$SNAPSHOTID
   # echo $SNAPSHOTID | grep -E "snap-........"
   # sleep 3
